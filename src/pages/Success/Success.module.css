@@ -1,0 +1,16 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: var(--font);
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}

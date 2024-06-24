@@ -1,0 +1,80 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 43px;
+}
+
+.product {
+    display: flex;
+    gap: 20px;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 14px;
+    color: #5b5b5e;
+}
+
+.ingredients {
+    text-transform: capitalize;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.description {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+.hr {
+    max-width: 512px;
+    margin: 0;
+    border: 1px solid #f1f2f3;
+}
+
+.rating-card {
+    bottom: -12px;
+    left: 19px;
+    background: var(--white-color);
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #111719;
+    box-shadow: 0 6px 24px 0 rgba(254, 114, 76, 0.2);
+}
