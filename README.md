@@ -1,6 +1,6 @@
 ## Tools
 
-### React, TypeScript, Axios, Redux Toolkit, Classnames, Vite
+### React, TypeScript, Axios, Redux Toolkit, React Router, Classnames, Vite
 
 ## How to run project
 
